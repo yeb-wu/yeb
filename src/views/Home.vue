@@ -151,42 +151,7 @@ export default {
   return {tableData,handle,chuji,gaoji,zhongji,getLessonInfo}
   }
 }
- /*  data() {
-    return {
-      tableData: [
-        { date: "阅读初级" },
-        { date: "阅读中级" },
-        { date: "阅读高级" },
-        { date: "听力初级" },
-        { date: "听力中级" },
-        { date: "听力高级" },       
-      ],
-      activeIndex: "1",
-      activeIndex2: "1",
-      
-    };
-  },
-  methods: {
-    handleSelect(key, keyPath) {
-      console.log(key, keyPath);
-    },
-    handle(row){
-      var i=0;
-      for (const iterator of this.tableData){
-        i++;
-        if(row.date==iterator.date){
-          this.goAnchor("#e"+i);
-          break;
-        }
-      }
-      
-    },
-    goAnchor(selector) {
-        var anchor = this.$el.querySelector(selector) // 参数为要跳转到的元素id
-        document.body.scrollTop = anchor.offsetTop; // chrome
-        document.documentElement.scrollTop = anchor.offsetTop;
-    }
-  }, */
+ 
 </script>
 
 <style scoped>
